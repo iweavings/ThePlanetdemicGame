@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Level 1 Get The Gold.unity
+    guid: dc94dfefedd2d4009b8ad499d0a2422b
+  - enabled: 1
+    path: Assets/Scenes/Level 2 Weaving.unity
+    guid: b540880cf367e49c392ea468f80a0fbb
+  - enabled: 1
+    path: Assets/Scenes/Level 3 The Hospital.unity
+    guid: 4e3e30191620f445fa043c6c72f15848
+  m_configObjects: {}
