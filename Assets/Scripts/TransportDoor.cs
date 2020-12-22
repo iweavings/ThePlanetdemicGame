@@ -26,12 +26,12 @@ public class TransportDoor : MonoBehaviour
     {
         if (open)
         {
-            transform.position = Vector3.Lerp(door.position, openedPosition, Time.deltaTime * openSpeed);
+            transform.position = Vector3.Lerp(transform.position, openedPosition, Time.deltaTime * openSpeed);
         }
 
         else
         {
-            door.position = Vector3.Lerp(door.position, closedPosition, Time.deltaTime * openSpeed);
+            transform.position = Vector3.Lerp(transform.position, closedPosition, Time.deltaTime * openSpeed);
         }
 
     }
